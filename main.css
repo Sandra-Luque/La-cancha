@@ -1,0 +1,63 @@
+/* Inserta tu CSS aqui */
+*{
+	margin: 0;
+	padding: 0;
+}
+.contenedor{
+	height: 540px;
+	width: 1000px;
+	background-color: #8cb27c;
+	margin: 70px auto;
+	padding: 25px;
+	position: static;
+}
+.margen{
+  height: 100%;
+  width: 100%;
+  border: 2px solid #fff;
+  position: relative;
+}
+.arco-1, .arco-2{
+	height: 200px;
+	width: 130px;
+	/*border: 2px solid #fff;*/
+	position: absolute;
+	top: 160px;
+}
+.arco-1{
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+.arco-2{
+	left: 870px;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+.circulo{
+	width: 200px;
+	height: 200px;
+	border: 2px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 150px;
+    left: 40%;
+}
+
+.bola-1, .bola-2, .bola-3 {
+	position: relative;
+}
+
+.bola-1{
+	top: -40px;
+	left: 120px;
+}
+.bola-2{
+	top: -130px;
+	left: 48%;
+}
+.bola-3{
+	top: 130px;
+	left: 78%;
+}
